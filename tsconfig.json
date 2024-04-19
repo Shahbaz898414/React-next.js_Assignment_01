@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/body/Body.tsx", "components/InputControl/Inputcontrol.js", "components/Resume/Resume.js"],
   "exclude": ["node_modules"]
 }
