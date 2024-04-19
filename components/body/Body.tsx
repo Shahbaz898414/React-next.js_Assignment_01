@@ -1,15 +1,18 @@
 import React, { useRef, useState } from "react";
-import { Download }  from "react-feather";
-import ReactToPrint from 'react-to-print';
+// import { Download }  from "react-feather";
+// import ReactToPrint from 'react-to-print';
 import styles from './body.module.css';
-import Editor from '../Editor/Editor';
-import Resume from '../Resume/Resume';
+
+import Editor from '../Editor/Editor.js';
+import Resume from '../Resume/Resume.js';
+
+
 
 function Body() {
 
   const colors = ["#239ce2", "#48bb78", "#d6ca00", "#a0aec0", "#ed8936"];
 
-  const [activeColor,setActiveColor] =useState(colors[1]);
+  const [activeColor,setActiveColor] =useState(colors[0]);
 
   const sections = {
     basicInfo: "Basic Info",
