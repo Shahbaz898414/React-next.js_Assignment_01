@@ -362,4 +362,6 @@ const  Resume = forwardRef((props,ref)=> {
   )
 });
 
+Resume.displayName = 'Resume';
+
 export default Resume
