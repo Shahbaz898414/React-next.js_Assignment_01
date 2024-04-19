@@ -113,7 +113,7 @@ const  Resume = forwardRef((props,ref)=> {
         <div className={styles.sectionTitle}>{info.project.sectionTitle}</div>
         <div className={styles.content}>
           {info.project?.details?.map((item) => (
-            <div className={styles.item}>
+            <div className={styles.item} key={"content"}>
               {item.title ? (
                 <p className={styles.title}>{item.title}</p>
               ) : (
@@ -171,7 +171,7 @@ const  Resume = forwardRef((props,ref)=> {
         </div>
         <div className={styles.content}>
           {info.education?.details?.map((item) => (
-            <div className={styles.item}>
+            <div className={styles.item} key={"content"}>
               {item.title ? (
                 <p className={styles.title}>{item.title}</p>
               ) : (
