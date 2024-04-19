@@ -3,8 +3,8 @@ import React, { useRef, useState } from "react";
 // import ReactToPrint from 'react-to-print';
 import styles from './body.module.css';
 
-import Editor from './Editor/Editor.js';
-import Resume from './Resume/Resume.js';
+import Editor from '../Editor/Editor';
+import Resume from '../Resume/Resume';
 
 
 
