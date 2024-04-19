@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import Body from "../components/body/Body";
+import Body from "../pages/components/body/Body";
 
 
 
