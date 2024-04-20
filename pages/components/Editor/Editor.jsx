@@ -371,10 +371,10 @@ function Editor(props) {
     //   }
     // }
 
-    if(values.name==="" ||  values.title==="" ||values.linkedin==="" || values.github==="" || values.phone==="" || values.email===""){
-      alert("Please fill in all fields before moving to the next page.");
-        return;
-    }
+    // if(values.name==="" ||  values.title==="" ||values.linkedin==="" || values.github==="" || values.phone==="" || values.email===""){
+    //   alert("Please fill in all fields before moving to the next page.");
+    //     return;
+    // }
 
     
   
