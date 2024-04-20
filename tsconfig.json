@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/body/Body.tsx", "components/InputControl/Inputcontrol.js", "components/Resume/Resume.js", "pages/components/Resume/Resume.jsx", "pages/components/InputControl/Inputcontrol.jsx", "pages/components/Editor/Editor.jsx", "pages/components/body/Body.jsx", "app/page.jsx", "app/layout.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/body/Body.tsx", "components/InputControl/Inputcontrol.js", "components/Resume/Resume.js", "pages/components/Resume/Resume.jsx", "pages/components/InputControl/Inputcontrol.jsx", "pages/components/Editor/Editor.jsx", "pages/components/body/Body.jsx", "app/page.jsx", "app/layout.jsx", "app/layout.js"],
   "exclude": ["node_modules"]
 }
