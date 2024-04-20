@@ -6,7 +6,7 @@ function Inputcontrol({ label, ...props }) {
     <div className={style.container}>
       {label && <label htmlFor="" className={style.label} id="main">{label}</label>} {/* Fix htmlFor attribute */}
 
-      <input type="text" {...props}  className="input"/>
+      <input type="text" {...props}  className={style.input}/>
     </div>
   );
 }
